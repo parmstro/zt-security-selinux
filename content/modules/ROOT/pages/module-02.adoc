@@ -43,6 +43,8 @@ Permissive
 sudo setenforce enforcing
 ----
 
+Making runtime changes to the SELInux mode is useful to debug policy issues or to determine is SELinux is really affecting and application.
+
 To make the change permanent, you must change the value in the following file. This determines the SELinux mode at boot time.
 [source,bash,role="execute",subs=attributes+]
 ----
